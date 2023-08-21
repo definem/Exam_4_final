@@ -1,0 +1,16 @@
+.head {
+	position: relative;
+	z-index: 9998;
+
+	&__wrapper {
+		background: #fff;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+}
+
+main {
+	margin-top: 130px;
+}

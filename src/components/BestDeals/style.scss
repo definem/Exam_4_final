@@ -1,0 +1,188 @@
+.heroMain {
+
+    &__top {
+        width: 100%;
+        min-height: 482px;
+        padding: 216px 80px 96px 80px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 4px;
+
+        .top {
+            &__inner {
+                display: block;
+                height: 100%;
+                margin-top: auto;
+            }
+
+            &__title {
+                font-size: 28px;
+                line-height: 28px;
+            }
+
+            &__text {
+                font-size: 18px;
+                line-height: 22px;
+                margin-top: 10px;
+            }
+
+            &__btn {
+                margin-top: 24px;
+                padding: 13px 18px;
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                font-size: 14px;
+                line-height: 17px;
+                background: #595CFF;
+                color: #fff;
+                border: 1px solid #595CFF;
+                border-radius: 4px;
+                cursor: pointer;
+
+                &:hover {
+                    background: none;
+                    color: #000;
+                }
+            }
+        }
+    }
+
+    // &__inner {
+    //     display: flex;
+    //     gap: 40px;
+    // }
+
+    // &__left {
+    //     flex: 1;
+    //     padding: 46px 80px;
+    //     background-image: url(../../assets/images/Left-img.png);
+    //     background-repeat: no-repeat;
+    //     background-position: center;
+    //     background-size: cover;
+    //     height: 221px;
+    // }
+
+    // &__title-left {
+    //     font-size: 28px;
+    //     line-height: 28px;
+    // }
+
+    // &__text-left {
+    //     font-size: 18px;
+    //     line-height: 22px;
+    //     margin-top: 10px;
+    // }
+
+    // &__btn {
+    //     margin-top: 24px;
+    //     display: flex;
+    //     align-items: center;
+    //     gap: 12px;
+    //     font-size: 14px;
+    //     line-height: 17px;
+    //     border: none;
+    //     background: none;
+    //     cursor: pointer;
+    // }
+
+    // &__right {
+    //     flex: 1;
+    //     padding: 46px 80px;
+    //     background-image: url(../../assets/images/Right-img.png);
+    //     background-repeat: no-repeat;
+    //     background-position: center;
+    //     background-size: cover;
+    //     height: 221px;
+    // }
+}
+
+@media only screen and (max-width: 676px) {
+    .heroMain {
+        &__top {
+            min-height: 220px;
+            padding: 32px 24px;
+
+            .top {
+                &__title {
+                    font-size: 24px;
+                    line-height: 28px;
+                }
+
+                &__text {
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+
+                &__btn {
+                    margin-top: 24px;
+                    padding: 13px 18px;
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    font-size: 14px;
+                    line-height: 17px;
+                    background: #000;
+                    color: #fff;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+
+        // &__inner {
+        //     display: flex;
+        //     gap: 40px;
+        // }
+
+        // &__left {
+        //     flex: 1;
+        //     padding: 46px 80px;
+        //     background-image: url(../../assets/images/Left-img.png);
+        //     background-repeat: no-repeat;
+        //     background-position: center;
+        //     background-size: cover;
+        //     height: 221px;
+        // }
+
+        // &__title-left {
+        //     font-size: 28px;
+        //     line-height: 28px;
+        // }
+
+        // &__text-left {
+        //     font-size: 18px;
+        //     line-height: 22px;
+        //     margin-top: 10px;
+        // }
+
+        // &__btn {
+        //     margin-top: 24px;
+        //     display: flex;
+        //     align-items: center;
+        //     gap: 12px;
+        //     font-size: 14px;
+        //     line-height: 17px;
+        //     border: none;
+        //     background: none;
+        //     cursor: pointer;
+        // }
+
+        // &__right {
+        //     flex: 1;
+        //     padding: 46px 80px;
+        //     background-image: url(../../assets/images/Right-img.png);
+        //     background-repeat: no-repeat;
+        //     background-position: center;
+        //     background-size: cover;
+        //     height: 221px;
+        // }
+    }
+
+}

@@ -1,0 +1,133 @@
+.plants {
+    &__path {
+        padding: 17px 0;
+    }
+
+    &__path-text {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+
+    &__path-text span {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16px;
+    }
+
+    &__sort {
+        display: none;
+    }
+
+    &__category {
+        margin-top: 20px;
+        border-bottom: 2px solid #E6E6EB;
+    }
+
+    &__categoty-title {
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 40px;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__form {
+        display: flex;
+        gap: 80px;
+        margin-bottom: 20px;
+    }
+
+    &__form select {
+        border: none;
+        padding: 0 14px 0 0;
+    }
+
+    &__item-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .btn-wrapper {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        .seeMore {
+            border: none;
+            width: 223px;
+            padding: 15px;
+            font-size: 14px;
+            line-height: 17px;
+            background: #000000;
+            color: #fff;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+}
+
+.modal,
+.modal form,
+.modal button,
+.modal img {
+    display: none;
+}
+
+@media only screen and (max-width: 676px) {
+    .plants {
+        position: relative;
+
+        &__path {
+            display: none;
+        }
+
+        &__category {
+            border: none;
+        }
+
+        &__categoty-title {
+            margin-top: -20px;
+            font-size: 24px;
+            line-height: 28px;
+            margin-bottom: 25px;
+        }
+
+        &__form {
+            display: none;
+        }
+
+        &__item-text {
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+
+        &__sort {
+            display: flex;
+        }
+
+
+
+        .btn-wrapper {
+            display: none;
+        }
+    }
+
+    .modal,
+    .modal form,
+    .modal img {
+        display: flex;
+    }
+
+    .modal button,
+    {
+    display: block;
+}
+}

@@ -1,0 +1,28 @@
+.nav {
+  padding: 28px 0;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: center;
+  gap: 67px;
+}
+
+.nav__item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+
+}
+
+.nav__item:hover {
+  transition: 0.5s all;
+  color: rgb(53, 33, 236);
+}
+
+@media only screen and (max-width: 676px) {
+  .nav {
+    display: none;
+  }
+
+}
